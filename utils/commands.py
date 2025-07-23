@@ -29,7 +29,7 @@ def process_command(command):
     # HORN / ALERT
     elif any(kw in command for kw in ["five", "alert", "do tiit", "make beep"]):
         print("[DUO] Playing alert sound.")
-        playsound("assets/tiit.wav")
+        playsound("assets/truck-horn.mp3")
     # SHUTDOWN
     elif "exit" in command or "shutdown" in command:
         speak("Shutting down. Goodbye.")
