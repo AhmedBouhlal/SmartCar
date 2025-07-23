@@ -1,9 +1,5 @@
 sounddevice
 vosk
-queue
-sys
-json
-time
 numpy
 pyttsx3
 playsound
